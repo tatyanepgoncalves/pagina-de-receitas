@@ -1,4 +1,4 @@
-<h1 align-center='center'> Página de Receita
+<h1 align='center'> Página de Receita
     <img src="design/desktop-design.jpg")
 
 
