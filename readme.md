@@ -1,5 +1,6 @@
 <h1 align-center='center'> Página de Receita
-(./assets/images/desktop-design.jpg)
+    <img src="assets/images/desktop-design.jpg")
+
 
 ## Bem-vindo(a)!  👋
 Obrigada por conferir este desafio de codificação front-end.
@@ -10,9 +11,9 @@ Obrigada por conferir este desafio de codificação front-end.
     - [Links](#links)
     - [Construído com](#contruído-com)
     - [Construindo o projeto](#construindo-o-projeto)
-    - [Recursos Úteis](#recursos-úteis)
-    - [Contato](#contato)
-    - [Avaliação](#avaliação)
+  - [Recursos Úteis](#recursos-úteis)
+  - [Contato](#contato)
+  - [Avaliação](#avaliação)
 
 ## Visão Geral
 
