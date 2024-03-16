@@ -1,5 +1,5 @@
 <h1 align-center='center'> Página de Receita
-    <img src="design/mobile-design.jpg")
+    <img src="design/desktop-design.jpg")
 
 
 ## Bem-vindo(a)!  👋
