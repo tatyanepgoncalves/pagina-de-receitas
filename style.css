@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+    font-family: 'Outfit', sans-serif;
+}
+
+body{
+    background-color: #f3e6d8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    width: 700px;
+    background-color: #fff;
+    padding: 30px 25px;
+    margin: 50px 0;
+    border-radius: 13px;
+}
+
+.card .img{
+    width: 100%;
+}
+
+.card .img img{
+    width: 100%;
+    border-radius: 13px;
+}
+
+
+.ingredients h2,
+.instructions h2,
+.nutricion h2{
+    color: #854632;
+    font-size: 32px;
+    font-family: 'Young Serif', serif;
+    padding-bottom: 20px;
+}
+
+.content h1{
+    font-family: 'Young Serif', sans-serif;
+    color: #302d2c;
+    font-size: 35px;
+    font-weight: 700;
+    margin: 20px 0 0;
+}
+
+.content p{
+    margin-bottom: 24px;
+}
+
+.preparation{
+    list-style: inside;
+    background-color: #fff5fa;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.preparation h2{
+    color: #854632;
+    font-size: 25px;
+}
+
+.preparation ul{
+    padding:0 10px;
+}
+
+.preparation ul li{
+    padding: 10px 0;
+}
+
+.preparation ul li strong{
+    color: #302d2c;
+}
+
+.ingredients, 
+.preparation,
+.instructions{
+    margin-bottom: 27px;
+}
+
+.border-b{
+    padding: 20px;
+    border-bottom: 2px solid #e3ded8;
+}
+
+.ingredients ul{
+    list-style: inside;
+}
+
+.ingredients ul li{
+    padding: 10px;
+}
+
+.instructions ol{
+    list-style: inside;
+}
+
+.instructions ol li{
+    padding: 10px 5px;
+    font-size: 15px;
+}
+
+.instructions ol li strong{
+    margin-right: 8px;
+    color: #854632;
+    font-size: 15px;
+}
+
+.nutricion{
+    padding: 10px;
+}
+
+.linha{
+    border-bottom: 2px solid #e3ded8;
+}
+.nutricion .dados{
+    display: flex;
+    align-items:  center;
+    justify-content: space-between;
+}
+
+.dados strong{
+    color: #854632;
+}
+
+.dados p{
+    padding: 10px 0;
+}
+
+@media (max-width: 900px){
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    .card{
+        width: 100%;
+        margin: 0;
+        border-radius: 0;
+        padding: 0;
+    }
+
+    .card .img{
+        padding: 0;
+    }
+
+    .card .img img{
+        width: 100%;
+        border-radius: 0;
+    }
+
+    .content{
+        padding: 10px 20px;
+    }
+
+    .content h1{
+        font-size: 45px;
+    }
+}
+
+
+  .attribution { 
+    font-size: 13px; 
+    text-align: center; 
+    padding: 0 0 15px;
+    
+}
+  .attribution a { 
+    color: #5f474e; 
+    text-decoration: none;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.attribution a:hover{
+    color: #302d2c;
+    font-weight: 500;
+}
+
+
+/*
+font-family: 'Outfit', sans-serif;
+font-family: 'Young Serif', serif;
+padding - 20px / 30px
