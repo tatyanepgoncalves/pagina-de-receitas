@@ -1,5 +1,5 @@
 <h1 align-center='center'> Página de Receita
-![Visualização do design para o desafio de codificação da página Receita](./assets/images/desktop-design.jpg)
+(./assets/images/desktop-design.jpg)
 
 ## Bem-vindo(a)!  👋
 Obrigada por conferir este desafio de codificação front-end.
